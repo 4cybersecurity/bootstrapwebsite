@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 35px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 25px;
+}
+body{
+    background-image: url(https://c0.wallpaperflare.com/preview/639/306/330/aerial-background-blog-cafe.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-family: 'Noto Sans Mono', monospace;
+}
+.navbar{
+    display: flex;
+    opacity: 0.9;
+    background-color: rosybrown;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    margin: 5px;
+    list-style-type: none;
+    display: flex;
+}
+.navbar ul li{
+    margin: 15px;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    
+}
+.navbar ul li a:hover{
+     background-color: palevioletred;   
+     color:white; 
+}
+footer{
+    display: flex;
+    opacity: 0.9;
+    background-color: rosybrown;
+    margin-top: 15px;
+    padding: 5px;
+    justify-content:space-around
+}
+.navigation{
+    list-style-type: none;
+    margin: 15px;
+}
+.navigation li{
+    margin: 15px;
+}
+.intro{
+    display: flex;
+    justify-content: space-evenly;
+}
+.intro article{
+    background-color: rosybrown;
+    border: 3px;
+    border-style: solid;
+    border-color: rosybrown;
+    border-radius: 20px;
+    margin-top: 25px;
+    opacity: 0.9;
+    text-align: center;
+}
+.intro article h1{
+    margin-top: 170px;
+    color: azure;
+}
+.intro article h3{
+    color: azure;
+}
+.social{
+    margin-top: 20px;
+    list-style-type: none;
+}
+
+
+
+

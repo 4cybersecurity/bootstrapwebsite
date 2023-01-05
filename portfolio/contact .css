@@ -1,0 +1,61 @@
+.navbar{
+    display: flex;
+    opacity: 0.9;
+    background-color: rosybrown;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    margin: 5px;
+    list-style-type: none;
+    display: flex;
+}
+.navbar ul li{
+    margin: 15px;
+    
+}
+.navbar ul li a{
+    text-decoration: none;
+    
+}
+.navbar ul li a:hover{
+     background-color: palevioletred;   
+     color:white; 
+}
+body{
+    background-image: url(https://c0.wallpaperflare.com/preview/639/306/330/aerial-background-blog-cafe.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+.forms{
+    margin-left: 650px;
+}
+.forms label, h1{
+    background-color: rosybrown;
+    opacity: 0.9;
+}
+.forms h1{
+    width: 100px;
+}
+footer{
+    display: flex;
+    opacity: 0.9;
+    background-color: rosybrown;
+    margin-top: 15px;
+    padding: 5px;
+    justify-content:space-around
+}
+.navigation{
+    list-style-type: none;
+    margin: 15px;
+}
+.navigation li{
+    margin: 15px;
+}
+.social{
+    margin-top: 20px;
+    list-style-type: none;
+}

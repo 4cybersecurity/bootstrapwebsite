@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://c0.wallpaperflare.com/preview/639/306/330/aerial-background-blog-cafe.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    font-family: 'Noto Sans Mono', monospace;
+}
+.navbar{
+    display: flex;
+    opacity: 0.9;
+    background-color: rosybrown;
+    padding: 5px;
+    justify-content: space-between;
+}
+.navbar ul{
+    margin: 5px;
+    list-style-type: none;
+    display: flex;
+}
+.navbar ul li{
+    margin: 15px;
+}
+.navbar ul li a{
+    text-decoration: none;
+}
+.navbar ul li a:hover{
+     background-color: palevioletred;   
+     color: white; 
+}
+section{
+    display: flex;
+    justify-content: space-evenly;
+}
+section .bio{
+    background-color: rosybrown;
+    border: 3px;
+    border-style: solid;
+    border-color: rosybrown;
+    border-radius: 20px;
+    margin-top: 15px;
+    opacity: 0.9;
+    text-align: left;
+    width: 250px;
+}
+section .bio p{
+    margin-top: 25px;
+    font-size: larger;
+}
+section .bio p a:hover{
+    background-color: palevioletred;
+    color: white;
+}
+
+section .hobby{
+    background-color: rosybrown;
+    border: 3px;
+    border-style: solid;
+    border-color: rosybrown;
+    border-radius: 20px;
+    margin-top: 15px;
+    opacity: 0.8;
+    text-align: center;
+    width: 200px;
+}
+section .hobby h1{
+    margin-top: 150px;
+}
+footer{
+    display: flex;
+    opacity: 0.9;
+    background-color: rosybrown;
+    margin-top: 15px;
+    padding: 5px;
+    justify-content:space-around
+}
+.navigation{
+    list-style-type: none;
+    margin: 15px;
+}
+.navigation li{
+    margin: 15px;
+}
+.social{
+    margin-top: 20px;
+    list-style-type: none;
+}
+.pp img{
+    margin-top: 50px;
+    border: 1px;
+    border-radius: 50%;
+}
+.hobbies{
+    list-style-type: none;
+    margin-top: 40px;
+}
+.cv{
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: whitesmoke;
+    border: 2px;
+    border-radius: 15px;
+    border-style: double;
+    width: 150px;
+    height: 25px;
+}
+.cv:hover{
+    color: white;
+    background-color: palevioletred;
+}
